@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color:rgb(255, 217, 0);
 }
 
 .App-logo {
@@ -18,14 +19,20 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* align-items: center;
+  justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  /* color: white; */
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
 @keyframes App-logo-spin {
